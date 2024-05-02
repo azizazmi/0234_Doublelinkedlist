@@ -9,6 +9,9 @@ struct Node {
     Node* prev;
 };
 
+
+Node* START = NULL;
+
 int main()
 {
     std::cout << "Hello World!\n";
