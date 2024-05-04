@@ -126,7 +126,7 @@ void traverse() {
         cout << "\nList is empty." << endl;
     }
     else {
-        cout << "\nRecords in descending order or roll number are: " << endl;
+        cout << "\nRecords in ascending order or roll number are: " << endl;
         Node* currentNode = START;   //step 1
         while (currentNode != NULL) {  //step 2
             cout << currentNode->noMhs << " " << currentNode->name << endl;   //step 3
