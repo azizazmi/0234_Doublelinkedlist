@@ -82,6 +82,9 @@ void deleteNode() {
         cout << "List is empty." << endl;
         return;
     }
+
+    current = START;  //step 1: start from the first node
+    previous = NULL;
 }
 
 int main()
